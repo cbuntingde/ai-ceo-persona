@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+*.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OpenClaw (these may contain sensitive configs)
+.openclaw/
+*.sock
+
+# Logs
+logs/
+*.log
+
+# Temporary
+tmp/
+temp/
